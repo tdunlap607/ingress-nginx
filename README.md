@@ -20,6 +20,8 @@
 > changes (for example, adapting to a new API or significant refactoring), we will generally not 
 > make that change in order to avoid introducing regressions.
 
+> Interested in a CVE-free container image of this project? [Contact Chainguard](https://www.chainguard.dev/contact). 
+
 
 ## History and Status
 
