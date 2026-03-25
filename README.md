@@ -1,20 +1,11 @@
-# Ingress NGINX Retirement
-
-## Retiring
-
-[What You Need to Know about Ingress NGINX Retirement](https://www.kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/):
-
-* Best-effort maintenance will continue until March 2026.
-* Afterward, there will be no further releases, no bugfixes, and no updates to resolve any security vulnerabilities that may be discovered.
-* Existing deployments of Ingress NGINX will not be broken.
-  * Existing project artifacts such as Helm charts and container images will remain available.
-
-# Ingress NGINX Controller
-
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5691/badge)](https://bestpractices.coreinfrastructure.org/projects/5691)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kubernetes/ingress-nginx)](https://goreportcard.com/report/github.com/kubernetes/ingress-nginx)
-[![GitHub license](https://img.shields.io/github/license/kubernetes/ingress-nginx.svg)](https://github.com/kubernetes/ingress-nginx/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx.svg)](https://github.com/kubernetes/ingress-nginx/stargazers)
+> [!IMPORTANT]
+> This is a supported replacement of the original [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx) repository, which was archived on March 24, 2026.
+>
+> Community contributions are not being accepted at this time. The documentation has been carried over directly from the original repository and may not reflect recent changes.
+>
+> We will make a best-effort attempt to address publicly known security vulnerabilities, including CVEs in dependencies and certain source code vulnerabilities when remediation can be achieved safely and with minimal risk. If mitigating a vulnerability would require extensive code changes (for example, adapting to a new API or significant refactoring), we will generally not make that change in order to avoid introducing regressions.
+>
+> Interested in a CVE-free container image of this project? [Contact Chainguard](https://www.chainguard.dev/contact).
 
 ## Overview
 
@@ -108,25 +99,6 @@ the versions listed. Ingress-Nginx versions **may** work on older versions, but 
 
 See [Updating NGINX-Ingress to use the stable Ingress API (July 26, 2021)](https://kubernetes.io/blog/2021/07/26/update-with-ingress-nginx/)
 to upgrade to the stable Ingress API before upgrading to Kubernetes 1.22.
-
-## Get Involved
-
-Thanks for taking the time to join our community and start contributing!
-
-- This project adheres to the [Kubernetes Community Code of Conduct](https://git.k8s.io/community/code-of-conduct.md).
-  By participating in this project, you agree to abide by its terms.
-- **Contributing**: Documentation contributions are welcome.
-
-  - Read [`CONTRIBUTING.md`](CONTRIBUTING.md) for information about the workflow that we
-    expect and instructions on the developer certificate of origin that we require.
-  - Join our Kubernetes Slack channel for developer discussion : [#ingress-nginx-dev](https://kubernetes.slack.com/archives/C021E147ZA4).
-  - Submit GitHub issues for documentation problems.
-    - Please make sure to read the [Issue Reporting Checklist](https://github.com/kubernetes/ingress-nginx/blob/main/CONTRIBUTING.md#issue-reporting-guidelines) before opening an issue. Issues not conforming to the guidelines **may be closed immediately**.
-
-- **Support**:
-
-  - Join the [#ingress-nginx-users](https://kubernetes.slack.com/messages/CANQGM8BA/) channel inside the [Kubernetes Slack](http://slack.kubernetes.io/) to ask questions or get support from the maintainers and other users.
-  - The [GitHub issues](https://github.com/kubernetes/ingress-nginx/issues) in the repository are **exclusively** for bug reports and feature requests.
 
 ## License
 
